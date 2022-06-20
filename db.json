@@ -1,0 +1,235 @@
+{
+  "admin": [
+    {
+      "nama": "Latoya Heathcote",
+      "email": "Florencio.Batz24@hotmail.com",
+      "password": "vEp_p6GXkDdm2GU",
+      "created_at": "2022-06-19T06:06:26.023Z",
+      "id": "1"
+    },
+    {
+      "nama": "Jimmy Gorczany",
+      "email": "Vita_Heidenreich27@gmail.com",
+      "password": "SDHNdOxSRxtP_mA",
+      "created_at": "2022-06-18T20:56:44.497Z",
+      "id": "2"
+    },
+    {
+      "nama": "Cornelius Cormier V",
+      "email": "Juliana_Friesen@yahoo.com",
+      "password": "oBKX8M7GpG3EfVt",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": "3"
+    },
+    {
+      "nama": "Whitney Runte",
+      "email": "Kaycee.Kassulke11@gmail.com",
+      "password": "efpKt8DdkpZCiBg",
+      "created_at": "2022-06-19T09:15:05.737Z",
+      "id": "4"
+    }
+  ],
+  "siswa": [
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
+      "nama": "Karen Ziemann",
+      "email": "Harry12@hotmail.com",
+      "no_telp": "(711) 603-4220",
+      "tgl_lahir": "2021-09-19T07:09:42.048Z",
+      "asal_kota": "North Travonmouth",
+      "pendidikan": "Fahey, Jacobs and Lind",
+      "password": "gqfFmJotjnimOHO",
+      "created_at": "2022-06-19T02:37:06.529Z",
+      "id": "2"
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+      "nama": "Mrs. Tricia Bergstrom",
+      "email": "Aiyana_Stoltenberg3@yahoo.com",
+      "no_telp": "1-344-730-6656",
+      "tgl_lahir": "2021-09-10T23:11:18.855Z",
+      "asal_kota": "Terre Haute",
+      "pendidikan": "Lesch, Huel and Pouros",
+      "password": "vW65dMe5vB4e0WW",
+      "created_at": "2022-06-18T11:37:34.731Z",
+      "id": "3"
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
+      "nama": "Mrs. Monica Fahey",
+      "email": "Bradly.Rohan@yahoo.com",
+      "no_telp": "1-978-682-5025",
+      "tgl_lahir": "2021-10-19T19:43:29.489Z",
+      "asal_kota": "Lee's Summit",
+      "pendidikan": "Torp and Sons",
+      "password": "KuxSQGovaw7NMur",
+      "created_at": "2022-06-19T06:10:05.980Z",
+      "id": "4"
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
+      "nama": "Armando Lehner",
+      "email": "Summer47@yahoo.com",
+      "no_telp": "(993) 544-3270",
+      "tgl_lahir": "2021-12-27T18:59:11.766Z",
+      "asal_kota": "Fort Beth",
+      "pendidikan": "Fay Group",
+      "password": "Ish9KLWzWNMjYOO",
+      "created_at": "2022-06-19T07:48:15.104Z",
+      "id": "5"
+    }
+  ],
+  "mentor": [
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "nama": "Carlton Hintz",
+      "keahlian": "Investor Branding Assistant",
+      "motivasi": "Ut vel eius dolorem. Similique quia et ut sit aperiam. Ipsa ipsum aut maxime odio a fugiat autem.",
+      "status": "status 1",
+      "price": "285.00",
+      "kota": "Bruenberg",
+      "lulusan": "lulusan 1",
+      "email": "Ardella.Runolfsdottir24@hotmail.com",
+      "password": "HpB13mKNqJBDQng",
+      "created_at": "2022-06-18T16:25:44.667Z",
+      "id": 1
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
+      "nama": "Alexandra Nitzsche",
+      "keahlian": "Direct Interactions Developer",
+      "motivasi": "Aliquid ab tempore dolore dolores accusantium aut odit sequi. Tenetur commodi est ipsam autem eveniet consequuntur. Sint sit esse est ut sit et voluptas delectus. Totam sed aut delectus repellat temporibus qui quibusdam. Voluptatem ullam iure maiores repellat id cumque quae illo. Beatae perferendis perspiciatis necessitatibus architecto rem architecto.",
+      "status": "status 2",
+      "price": "908.00",
+      "kota": "Lake Rogerscester",
+      "lulusan": "lulusan 2",
+      "email": "Scottie_Rempel56@yahoo.com",
+      "password": "shEkHTs5WAQpc4z",
+      "created_at": "2022-06-19T01:22:14.165Z",
+      "id": 2
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
+      "nama": "Emanuel Parisian",
+      "keahlian": "Future Optimization Orchestrator",
+      "motivasi": "Est omnis voluptatem aut quia qui non quia aut aut. Ullam et aliquid possimus iusto aut dolorem deserunt reprehenderit vel. Quasi sint officiis eum quia esse fugiat.",
+      "status": "status 3",
+      "price": "732.00",
+      "kota": "New Marcosfield",
+      "lulusan": "lulusan 3",
+      "email": "Micaela19@hotmail.com",
+      "password": "zTsltvqkZFsrUDC",
+      "created_at": "2022-06-19T01:00:22.314Z",
+      "id": 3
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+      "nama": "Mr. Rick Greenfelder",
+      "keahlian": "Direct Communications Officer",
+      "motivasi": "Rerum natus odio reprehenderit hic ut fugit. Dolorem labore aut. Assumenda amet laborum optio sit. Omnis at harum mollitia sint unde ut. Quia in placeat quas qui odio.",
+      "status": "status 4",
+      "price": "915.00",
+      "kota": "Burien",
+      "lulusan": "lulusan 4",
+      "email": "Shanny.Anderson3@hotmail.com",
+      "password": "EdtNbQuoNcxs_RG",
+      "created_at": "2022-06-18T17:42:01.261Z",
+      "id": 4
+    },
+    {
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/380.jpg",
+      "nama": "Rose Hauck",
+      "keahlian": "Future Solutions Technician",
+      "motivasi": "Libero nam maiores porro id consequatur rerum omnis blanditiis assumenda. Aut nihil odit laborum vitae quaerat fugiat et in perferendis. Reiciendis modi non culpa reiciendis suscipit rerum.",
+      "status": "status 5",
+      "price": "861.00",
+      "kota": "South Coby",
+      "lulusan": "lulusan 5",
+      "email": "Guillermo34@yahoo.com",
+      "password": "e0cDs2z8xUR8HeH",
+      "created_at": "2022-06-18T22:07:41.168Z",
+      "id": 5
+    }
+  ],
+  "kursus": [
+    {
+      "id": 1,
+      "nama": "Guru React",
+      "mentorId": 1,
+      "deskripsi": "Frontend adalah tentang tampilan",
+      "modul": "Frontend",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 2,
+      "nama": "Guru JS",
+      "mentorId": 2,
+      "deskripsi": "Backend adalah tentang tampilan",
+      "modul": "Frontend",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 3,
+      "nama": "Guru Python",
+      "mentorId": 3,
+      "deskripsi": "Frontend adalah tentang tampilan",
+      "modul": "Python",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 4,
+      "nama": "Guru PHP",
+      "mentorId": 4,
+      "deskripsi": "Frontend adalah tentang tampilan",
+      "modul": "Website",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 5,
+      "nama": "Guru Java",
+      "mentorId": 5,
+      "deskripsi": "Frontend adalah tentang tampilan",
+      "modul": "Android",
+      "created_at": "18 Juni 2022, 23:12:00"
+    }
+  ],
+  "komentar": [
+    {
+      "id": 1,
+      "content": "Yayaya",
+      "created_at": "18 Juni 2022, 23:12:00",
+      "mentorId": 1
+    },
+    {
+      "id": 2,
+      "content": "Jos gandos",
+      "created_at": "18 Juni 2022, 23:12:00",
+      "mentorId": 1
+    },
+    {
+      "id": 3,
+      "content": "Siap",
+      "created_at": "18 Juni 2022, 23:12:00",
+      "mentorId": 2
+    }
+  ],
+  "transaksi": [
+    {
+      "id": 0,
+      "siswa_id": 0,
+      "mentor_id": 0,
+      "status": "Belum dibayar",
+      "end_at": "19 Juni 2022, 23:12:00",
+      "created_at": "18 Juni 2022, 23:12:00"
+    }
+  ],
+  "rating": [
+    {
+      "id": 0,
+      "rated": "5",
+      "siswa_id": "0",
+      "kursus_id": "0",
+      "created_at": "18 Juni 2022, 23:12:00"
+    }
+  ]
+}
