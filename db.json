@@ -2,49 +2,48 @@
   "admin": [
     {
       "nama": "Latoya Heathcote",
-      "email": "Florencio.Batz24@hotmail.com",
-      "password": "vEp_p6GXkDdm2GU",
+      "email": "demo@admin.com",
+      "password": "demoadmin",
       "created_at": "2022-06-19T06:06:26.023Z",
-      "id": "1"
+      "id": "1",
+      "role": "admin"
     },
     {
       "nama": "Jimmy Gorczany",
       "email": "Vita_Heidenreich27@gmail.com",
       "password": "SDHNdOxSRxtP_mA",
       "created_at": "2022-06-18T20:56:44.497Z",
-      "id": "2"
+      "id": "2",
+      "role": "admin"
     },
     {
       "nama": "Cornelius Cormier V",
       "email": "Juliana_Friesen@yahoo.com",
       "password": "oBKX8M7GpG3EfVt",
       "created_at": "2022-06-18T20:08:28.934Z",
-      "id": "3"
-    },
-    {
-      "nama": "Whitney Runte",
-      "email": "Kaycee.Kassulke11@gmail.com",
-      "password": "efpKt8DdkpZCiBg",
-      "created_at": "2022-06-19T09:15:05.737Z",
-      "id": "4"
+      "id": "3",
+      "role": "admin"
     }
   ],
   "siswa": [
     {
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
-      "nama": "Karen Ziemann",
-      "email": "Harry12@hotmail.com",
+      "nama_depan": "Karen",
+      "nama_belakang": "Ziemann",
+      "email": "demo@siswa.com",
       "no_telp": "(711) 603-4220",
       "tgl_lahir": "2021-09-19T07:09:42.048Z",
       "asal_kota": "North Travonmouth",
       "pendidikan": "Fahey, Jacobs and Lind",
-      "password": "gqfFmJotjnimOHO",
+      "password": "demosiswa",
       "created_at": "2022-06-19T02:37:06.529Z",
+      "role": "siswa",
       "id": 1
     },
     {
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
-      "nama": "Mrs. Tricia Bergstrom",
+      "nama_depan": "Mrs. Tricia",
+      "nama_belakang": "Bergstrom",
       "email": "Aiyana_Stoltenberg3@yahoo.com",
       "no_telp": "1-344-730-6656",
       "tgl_lahir": "2021-09-10T23:11:18.855Z",
@@ -52,11 +51,13 @@
       "pendidikan": "Lesch, Huel and Pouros",
       "password": "vW65dMe5vB4e0WW",
       "created_at": "2022-06-18T11:37:34.731Z",
+      "role": "siswa",
       "id": 2
     },
     {
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
-      "nama": "Mrs. Monica Fahey",
+      "nama_depan": "Mrs. Monica",
+      "nama_belakang": "Fahey",
       "email": "Bradly.Rohan@yahoo.com",
       "no_telp": "1-978-682-5025",
       "tgl_lahir": "2021-10-19T19:43:29.489Z",
@@ -64,19 +65,8 @@
       "pendidikan": "Torp and Sons",
       "password": "KuxSQGovaw7NMur",
       "created_at": "2022-06-19T06:10:05.980Z",
+      "role": "siswa",
       "id": 3
-    },
-    {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
-      "nama": "Armando Lehner",
-      "email": "Summer47@yahoo.com",
-      "no_telp": "(993) 544-3270",
-      "tgl_lahir": "2021-12-27T18:59:11.766Z",
-      "asal_kota": "Fort Beth",
-      "pendidikan": "Fay Group",
-      "password": "Ish9KLWzWNMjYOO",
-      "created_at": "2022-06-19T07:48:15.104Z",
-      "id": 4
     }
   ],
   "mentor": [
@@ -89,9 +79,10 @@
       "price": "Rp. 100.000 / Jam",
       "kota": "Sukoharjo",
       "lulusan": "Lulusan Oxford",
-      "email": "lilpeep@gmail.com",
-      "password": "HpB13mKNqJBDQng",
+      "email": "demo@mentor.com",
+      "password": "demomentor",
       "created_at": "10 Juni 2022",
+      "role": "mentor",
       "id": 1
     },
     {
@@ -106,6 +97,7 @@
       "email": "Scottie_Rempel56@yahoo.com",
       "password": "shEkHTs5WAQpc4z",
       "created_at": "2022-06-19T01:22:14.165Z",
+      "role": "mentor",
       "id": 2
     },
     {
@@ -120,6 +112,7 @@
       "email": "Micaela19@hotmail.com",
       "password": "zTsltvqkZFsrUDC",
       "created_at": "2022-06-19T01:00:22.314Z",
+      "role": "mentor",
       "id": 3
     },
     {
@@ -134,6 +127,7 @@
       "email": "Shanny.Anderson3@hotmail.com",
       "password": "EdtNbQuoNcxs_RG",
       "created_at": "2022-06-18T17:42:01.261Z",
+      "role": "mentor",
       "id": 4
     },
     {
@@ -148,6 +142,7 @@
       "email": "Guillermo34@yahoo.com",
       "password": "e0cDs2z8xUR8HeH",
       "created_at": "2022-06-18T22:07:41.168Z",
+      "role": "mentor",
       "id": 5
     }
   ],
