@@ -45,7 +45,7 @@
   ],
   "mentor": [
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "avatar": "https://picsum.photos/200/300",
       "nama_depan": "Lil",
       "nama_belakang": "Peep",
       "keahlian": "React",
@@ -61,11 +61,11 @@
       "id": 1
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "avatar": "https://picsum.photos/200/300",
       "nama_depan": "Sadboyprolific",
       "nama_belakang": "Peep",
       "keahlian": "HTML",
-      "motivasi": "Saya adalah seseorang yang suka kepo tentang dunia coding.",
+      "motivasi": "Saya adalah seseorang yang suka kepo tentang dunia coding. Di dunia coding saya memiliki pengalaman 5 tahun.",
       "status": "Online",
       "price": "Rp. 150.000 / Jam",
       "kota": "Bali",
@@ -77,11 +77,11 @@
       "id": 2
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "avatar": "https://picsum.photos/200/300",
       "nama_depan": "Lil",
       "nama_belakang": "Tracy",
       "keahlian": "CSS",
-      "motivasi": "CSS bagi saya sangat mudah.",
+      "motivasi": "CSS bagi saya sangat mudah. Yang pasti jika kalian ingin menjadi seorang web developer, kalian harus minimal menguasai CSS. Tentang penggunaan dan pembuatannya.",
       "status": "Online",
       "price": "Rp. 100.000 / Jam",
       "kota": "Demak",
@@ -93,11 +93,11 @@
       "id": 3
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "avatar": "https://picsum.photos/200/300",
       "nama_depan": "Lil",
       "nama_belakang": "Tracy",
       "keahlian": "Golang",
-      "motivasi": "Data adalah makanan saya sehari-hari.",
+      "motivasi": "Data adalah makanan saya sehari-hari. Pengolahan data di dalam golang sangaat menarik. Backend seharusnya memahami golang.",
       "status": "Online",
       "price": "Rp. 200.000 / Jam",
       "kota": "Jakarta",
@@ -109,11 +109,11 @@
       "id": 4
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "avatar": "https://picsum.photos/200/300",
       "nama_depan": "Haroinfather",
       "nama_belakang": "",
       "keahlian": "Java",
-      "motivasi": "Pembuatan aplikasi android sangatlah mudah.",
+      "motivasi": "Dengan bahasa pemrograman Java, kalian bisa membuat aplikasi android dengan mudah. Walaupun di awal-awal kalian mengalami kesulitan, tapi kalian akan terbiasa dengan bahasa pemrograman Java.",
       "status": "Online",
       "price": "Rp. 300.000 / Jam",
       "kota": "Ambarawa",
