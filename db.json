@@ -1,30 +1,4 @@
 {
-  "admin": [
-    {
-      "nama": "Latoya Heathcote",
-      "email": "demo@admin.com",
-      "password": "demoadmin",
-      "created_at": "2022-06-19T06:06:26.023Z",
-      "id": "1",
-      "role": "admin"
-    },
-    {
-      "nama": "Jimmy Gorczany",
-      "email": "Vita_Heidenreich27@gmail.com",
-      "password": "SDHNdOxSRxtP_mA",
-      "created_at": "2022-06-18T20:56:44.497Z",
-      "id": "2",
-      "role": "admin"
-    },
-    {
-      "nama": "Cornelius Cormier V",
-      "email": "Juliana_Friesen@yahoo.com",
-      "password": "oBKX8M7GpG3EfVt",
-      "created_at": "2022-06-18T20:08:28.934Z",
-      "id": "3",
-      "role": "admin"
-    }
-  ],
   "siswa": [
     {
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
@@ -72,7 +46,8 @@
   "mentor": [
     {
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
-      "nama": "Lil Peep",
+      "nama_depan": "Lil",
+      "nama_belakang": "Peep",
       "keahlian": "React",
       "motivasi": "Saya adalah seseorang yang tidak mudah menyerah di dunia coding. Itulah alasan saya kenapa saya memiliki pengalaman 5 tahun di dunia coding.",
       "status": "Online",
@@ -86,62 +61,66 @@
       "id": 1
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
-      "nama": "Alexandra Nitzsche",
-      "keahlian": "Direct Interactions Developer",
-      "motivasi": "Aliquid ab tempore dolore dolores accusantium aut odit sequi. Tenetur commodi est ipsam autem eveniet consequuntur. Sint sit esse est ut sit et voluptas delectus. Totam sed aut delectus repellat temporibus qui quibusdam. Voluptatem ullam iure maiores repellat id cumque quae illo. Beatae perferendis perspiciatis necessitatibus architecto rem architecto.",
-      "status": "status 2",
-      "price": "908.00",
-      "kota": "Lake Rogerscester",
-      "lulusan": "lulusan 2",
-      "email": "Scottie_Rempel56@yahoo.com",
-      "password": "shEkHTs5WAQpc4z",
-      "created_at": "2022-06-19T01:22:14.165Z",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "nama_depan": "Sadboyprolific",
+      "nama_belakang": "Peep",
+      "keahlian": "HTML",
+      "motivasi": "Saya adalah seseorang yang suka kepo tentang dunia coding.",
+      "status": "Online",
+      "price": "Rp. 150.000 / Jam",
+      "kota": "Bali",
+      "lulusan": "Lulusan UI",
+      "email": "demo2@mentor.com",
+      "password": "demomentor",
+      "created_at": "10 Juni 2022",
       "role": "mentor",
       "id": 2
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
-      "nama": "Emanuel Parisian",
-      "keahlian": "Future Optimization Orchestrator",
-      "motivasi": "Est omnis voluptatem aut quia qui non quia aut aut. Ullam et aliquid possimus iusto aut dolorem deserunt reprehenderit vel. Quasi sint officiis eum quia esse fugiat.",
-      "status": "status 3",
-      "price": "732.00",
-      "kota": "New Marcosfield",
-      "lulusan": "lulusan 3",
-      "email": "Micaela19@hotmail.com",
-      "password": "zTsltvqkZFsrUDC",
-      "created_at": "2022-06-19T01:00:22.314Z",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "nama_depan": "Lil",
+      "nama_belakang": "Tracy",
+      "keahlian": "CSS",
+      "motivasi": "CSS bagi saya sangat mudah.",
+      "status": "Online",
+      "price": "Rp. 100.000 / Jam",
+      "kota": "Demak",
+      "lulusan": "Lulusan UMS",
+      "email": "demo3@mentor.com",
+      "password": "demomentor",
+      "created_at": "10 Juni 2022",
       "role": "mentor",
       "id": 3
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
-      "nama": "Mr. Rick Greenfelder",
-      "keahlian": "Direct Communications Officer",
-      "motivasi": "Rerum natus odio reprehenderit hic ut fugit. Dolorem labore aut. Assumenda amet laborum optio sit. Omnis at harum mollitia sint unde ut. Quia in placeat quas qui odio.",
-      "status": "status 4",
-      "price": "915.00",
-      "kota": "Burien",
-      "lulusan": "lulusan 4",
-      "email": "Shanny.Anderson3@hotmail.com",
-      "password": "EdtNbQuoNcxs_RG",
-      "created_at": "2022-06-18T17:42:01.261Z",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "nama_depan": "Lil",
+      "nama_belakang": "Tracy",
+      "keahlian": "Golang",
+      "motivasi": "Data adalah makanan saya sehari-hari.",
+      "status": "Online",
+      "price": "Rp. 200.000 / Jam",
+      "kota": "Jakarta",
+      "lulusan": "Lulusan nurul fikri",
+      "email": "demo4@mentor.com",
+      "password": "demomentor",
+      "created_at": "10 Juni 2022",
       "role": "mentor",
       "id": 4
     },
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/380.jpg",
-      "nama": "Rose Hauck",
-      "keahlian": "Future Solutions Technician",
-      "motivasi": "Libero nam maiores porro id consequatur rerum omnis blanditiis assumenda. Aut nihil odit laborum vitae quaerat fugiat et in perferendis. Reiciendis modi non culpa reiciendis suscipit rerum.",
-      "status": "status 5",
-      "price": "861.00",
-      "kota": "South Coby",
-      "lulusan": "lulusan 5",
-      "email": "Guillermo34@yahoo.com",
-      "password": "e0cDs2z8xUR8HeH",
-      "created_at": "2022-06-18T22:07:41.168Z",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+      "nama_depan": "Haroinfather",
+      "nama_belakang": "",
+      "keahlian": "Java",
+      "motivasi": "Pembuatan aplikasi android sangatlah mudah.",
+      "status": "Online",
+      "price": "Rp. 300.000 / Jam",
+      "kota": "Ambarawa",
+      "lulusan": "Lulusan ITB",
+      "email": "demo5@mentor.com",
+      "password": "demomentor",
+      "created_at": "10 Juni 2022",
       "role": "mentor",
       "id": 5
     }
@@ -157,25 +136,25 @@
     },
     {
       "id": 2,
-      "nama": "Kursus JS",
+      "nama": "Kursus HTML",
       "mentorId": 2,
-      "deskripsi": "JS adalah blablabla",
+      "deskripsi": "HTML adalah blablabla",
       "modul": "Frontend",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
       "id": 3,
-      "nama": "Kursus Python",
+      "nama": "Kursus CSS",
       "mentorId": 3,
-      "deskripsi": "Frontend adalah tentang tampilan",
+      "deskripsi": "CSS adalah tentang tampilan",
       "modul": "Python",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
       "id": 4,
-      "nama": "Kursus PHP",
+      "nama": "Kursus Golang",
       "mentorId": 4,
-      "deskripsi": "Frontend adalah tentang tampilan",
+      "deskripsi": "Golang adalah tentang pengolahan data",
       "modul": "Website",
       "created_at": "18 Juni 2022, 23:12:00"
     },
@@ -183,7 +162,7 @@
       "id": 5,
       "nama": "Kursus Java",
       "mentorId": 5,
-      "deskripsi": "Frontend adalah tentang tampilan",
+      "deskripsi": "Java adalah bahasa yang digunakan untuk pembuatan aplikasi android",
       "modul": "Android",
       "created_at": "18 Juni 2022, 23:12:00"
     }
@@ -194,47 +173,128 @@
       "content": "Yayaya",
       "created_at": "18 Juni 2022, 23:12:00",
       "mentorId": 1,
-      "siswaId": 1
+      "siswaId": 1,
+      "rate": 5,
+      "commented": true
     },
     {
       "id": 2,
       "content": "Jos gandos",
       "created_at": "18 Juni 2022, 23:12:00",
       "mentorId": 1,
-      "siswaId": 2
+      "siswaId": 2,
+      "rate": 4,
+      "commented": true
     },
     {
       "id": 3,
       "content": "Siap",
       "created_at": "18 Juni 2022, 23:12:00",
       "mentorId": 2,
-      "siswaId": 3
+      "siswaId": 3,
+      "rate": 3,
+      "commented": true
     },
     {
       "id": 4,
       "content": "Besok coba lagi",
       "created_at": "18 Juni 2022, 23:12:00",
       "mentorId": 1,
-      "siswaId": 3
+      "siswaId": 3,
+      "rate": 5,
+      "commented": true
     }
   ],
   "transaksi": [
     {
-      "id": 0,
-      "siswa_id": 0,
-      "mentor_id": 0,
-      "status": "Belum dibayar",
+      "id": 1,
+      "siswaId": 1,
+      "mentorId": 1,
+      "status": "Lunas",
+      "end_at": "19 Juni 2022, 23:12:00",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 2,
+      "siswaId": 2,
+      "mentorId": 1,
+      "status": "Lunas",
+      "end_at": "19 Juni 2022, 23:12:00",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 3,
+      "siswaId": 3,
+      "mentorId": 2,
+      "status": "Lunas",
+      "end_at": "19 Juni 2022, 23:12:00",
+      "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "id": 4,
+      "siswaId": 3,
+      "mentorId": 1,
+      "status": "Lunas",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
     }
   ],
-  "rating": [
+  "admin": [
     {
-      "id": 0,
-      "rated": "5",
-      "siswa_id": "0",
-      "kursus_id": "0",
-      "created_at": "18 Juni 2022, 23:12:00"
+      "nama": "Demo Admin",
+      "email": "demo@admin.com",
+      "password": "demoadmin",
+      "created_at": "2022-06-19T06:06:26.023Z",
+      "id": 1,
+      "role": "admin"
+    },
+    {
+      "nama": "Nabil Aziz Bima Anggita",
+      "email": "nabilazizbimaanggita@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:56:44.497Z",
+      "id": 2,
+      "role": "admin"
+    },
+    {
+      "nama": "Achmad Izhar",
+      "email": "achmadizhar@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": 3,
+      "role": "admin"
+    },
+    {
+      "nama": "Anggun Lentera",
+      "email": "anggunlentera@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": 4,
+      "role": "admin"
+    },
+    {
+      "nama": "Soultan Ali Hadji",
+      "email": "soultan@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": 5,
+      "role": "admin"
+    },
+    {
+      "nama": "Sean",
+      "email": "sean@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": 6,
+      "role": "admin"
+    },
+    {
+      "nama": "Irsan",
+      "email": "irsan@gmail.com",
+      "password": "123",
+      "created_at": "2022-06-18T20:08:28.934Z",
+      "id": 7,
+      "role": "admin"
     }
   ]
 }

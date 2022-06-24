@@ -41,7 +41,7 @@ const getUser = (email, password) =>
   );
 
 // Register New User
-server.post("/auth/register", (req, res) => {
+server.post("/register", (req, res) => {
   console.log("register endpoint called; request body:");
   console.log(req.body);
 
@@ -96,7 +96,7 @@ server.post("/auth/register", (req, res) => {
 });
 
 // Login to one of the users from ./users.json
-server.post("/auth/login", (req, res) => {
+server.post("/login", (req, res) => {
   console.log("login endpoint called; request body:");
   console.log(req.body);
   const { email, password } = req.body;
