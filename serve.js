@@ -1,14 +1,18 @@
+const low = require("lowdb");
+const FileSync = require('lowdb/adapters/FileSync');
+
+const adapter = new FileSync('db.json');
+const db = low(adapter)
+
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const jsonServer = require("json-server");
 const jwt = require("jsonwebtoken");
-const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 8000;
 
 const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
 const userdb = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
-const uuidv4 = require("uuidv4");
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
@@ -86,16 +90,7 @@ server.post("/register", (req, res) => {
       role,
     };
 
-    data[role].push(user);
-
-    fs.writeFile("./db.json", JSON.stringify(data), (err, result) => {
-      if (err) {
-        const status = 401;
-        const message = err;
-        res.status(status).json({ status, message });
-        return;
-      }
-    });
+    db.get(role).push(user).write();
 
     const tokenId = createToken(user.email, user.nama_depan);
     console.log("Access Token:" + tokenId);
@@ -153,7 +148,6 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
   }
 });
 
-server.use(middlewares);
 server.use(router);
 
 server.listen(port);

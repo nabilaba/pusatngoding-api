@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node serve.js",
+    "start": "nodemon serve.js",
     "watch": "json-server --watch db.json --port 5000"
   },
   "author": "",
@@ -14,6 +14,8 @@
     "body-parser": "^1.20.0",
     "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "nodemon": "^2.0.18",
     "uuidv4": "^6.2.13"
   }
 }
