@@ -69,9 +69,7 @@ server.post("/register", (req, res) => {
     //Add new user
     user = {
       id: uuidv4(),
-      email: email,
-      name: name,
-      password: password,
+      {...req.body}
     };
 
     data.users.push(user);
