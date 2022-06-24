@@ -19,8 +19,8 @@ const SECRET_KEY = "123456789";
 const expiresIn = "1h";
 
 // Create a token from a payload
-const createToken = (email, name) =>
-  jwt.sign({ email, name }, SECRET_KEY, { expiresIn });
+const createToken = (email, nama_depan) =>
+  jwt.sign({ email, nama_depan }, SECRET_KEY, { expiresIn });
 
 // Verify the token
 const verifyToken = (token) =>
@@ -40,13 +40,19 @@ const getUser = (email, password) =>
     (user) => user.email === email && user.password === password
   );
 
+const getUserbyEmail = (email) =>
+  userdb.siswa.find((user) => user.email === email) ||
+  userdb.mentor.find((user) => user.email === email) ||
+  userdb.admin.find((user) => user.email === email);
+
 // Register New User
 server.post("/register", (req, res) => {
   console.log("register endpoint called; request body:");
   console.log(req.body);
 
-  const { email, password, name } = req.body;
-  let user = getUser(email, password);
+  const { nama_depan, nama_belakang, email, no_telp, password, role } =
+    req.body;
+  let user = getUserbyEmail(email);
 
   if (user) {
     const status = 400;
@@ -66,15 +72,21 @@ server.post("/register", (req, res) => {
     // Get current users data
     data = JSON.parse(data.toString());
 
+    // Get the id of last user
+    var last_item_id = Date.now();
+
     //Add new user
     user = {
-      id: uuidv4(),
-      email: email,
-      name: name,
-      password: password,
+      id: last_item_id + 1,
+      nama_depan,
+      nama_belakang,
+      email,
+      no_telp,
+      password,
+      role,
     };
 
-    data.users.push(user);
+    data[role].push(user);
 
     fs.writeFile("./db.json", JSON.stringify(data), (err, result) => {
       if (err) {
@@ -85,13 +97,10 @@ server.post("/register", (req, res) => {
       }
     });
 
-    // Create token for new user
-    const tokenId = createToken(email, name);
+    const tokenId = createToken(user.email, user.nama_depan);
+    console.log("Access Token:" + tokenId);
 
-    res.status(200).json({
-      tokenId,
-      user: { id: user.id, name: user.name, email: user.email },
-    });
+    res.status(200).json({ tokenId, user: { ...user } });
   });
 });
 
@@ -110,7 +119,7 @@ server.post("/login", (req, res) => {
     return;
   }
 
-  const tokenId = createToken(user.email, user.name);
+  const tokenId = createToken(user.email, user.nama_depan);
   console.log("Access Token:" + tokenId);
 
   res.status(200).json({ tokenId, user: { ...user } });
@@ -147,4 +156,4 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
 server.use(middlewares);
 server.use(router);
 
-server.listen(port); 
+server.listen(port);
