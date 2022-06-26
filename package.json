@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon serve.js",
     "watch": "json-server --watch db.json --port 5000",
-    "push": "git add . && git commit -m \"message\" && git push origin main"
+    "push": "git add . && git commit -m \"chore: sync\" && git push origin main"
   },
   "author": "",
   "license": "ISC",
