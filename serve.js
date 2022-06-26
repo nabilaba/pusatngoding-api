@@ -231,6 +231,36 @@ server.post("/tambah-transaksi", (req, res) => {
   });
 });
 
+server.post("/tambah-komentar", (req, res) => {
+  console.log("tambah-komentar endpoint called; request body:");
+  console.log(req.body);
+
+  let komentar = req.body;
+
+  fs.readFile("./db.json", (err, data) => {
+    if (err) {
+      const status = 401;
+      const message = err;
+      res.status(status).json({ status, message });
+      return;
+    }
+
+    // Get the id of last user
+    var last_item_id = Date.now();
+
+    //Add new user
+    komentar = {
+      ...req.body,
+      id: last_item_id + 1,
+      created_at: getCreatedAt(),
+    };
+
+    db.get("komentar").push(komentar).write();
+
+    res.status(200).json({ komentar: { ...komentar } });
+  });
+});
+
 // Login to one of the users from ./users.json
 server.post("/login", (req, res) => {
   console.log("login endpoint called; request body:");
