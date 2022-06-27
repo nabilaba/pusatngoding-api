@@ -208,7 +208,7 @@
     {
       "id": 1,
       "siswaId": 12345656,
-      "kursusId": 1234355,
+      "kursusId": 1,
       "status": "Lunas",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
@@ -216,7 +216,7 @@
     {
       "id": 2,
       "siswaId": 23954365,
-      "kursusId": 1234355,
+      "kursusId": 2,
       "status": "Lunas",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
@@ -224,7 +224,7 @@
     {
       "id": 3,
       "siswaId": 3453497,
-      "kursusId": 2645845459,
+      "kursusId": 3,
       "status": "Lunas",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
@@ -232,10 +232,17 @@
     {
       "id": 4,
       "siswaId": 3453497,
-      "kursusId": 1234355,
+      "kursusId": 4,
       "status": "Lunas",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
+    },
+    {
+      "status": "Batal",
+      "kursusId": 1,
+      "siswaId": 12345656,
+      "id": 1656290785688,
+      "created_at": "Senin, 27 Juni 2022 7:46:25"
     }
   ],
   "admin": [
