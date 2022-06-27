@@ -1,14 +1,14 @@
 {
   "siswa": [
     {
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
-      "nama_depan": "Karen",
-      "nama_belakang": "Ziemann",
+      "avatar": "http://res.cloudinary.com/pusatngoding/image/upload/v1656317465/rj4pslkspa7ra9fb27uc.png",
+      "nama_depan": "Akun",
+      "nama_belakang": "Demo",
       "email": "demo@siswa.com",
-      "no_telp": "(711) 603-4220",
+      "no_telp": "083423569890",
       "tgl_lahir": "2021-09-19T07:09:42.048Z",
-      "kota": "North Travonmouth",
-      "pendidikan": "Fahey, Jacobs and Lind",
+      "kota": "Nawud RT05/RW03, Tegalmade, Mojolaban, Sukoharjo",
+      "pendidikan": "Semester 6 Teknik Informatika",
       "password": "demosiswa",
       "created_at": "2022-06-19T02:37:06.529Z",
       "role": "siswa",
@@ -69,11 +69,24 @@
       "created_at": "2022-06-19T06:10:05.980Z",
       "role": "siswa",
       "id": 5345435
+    },
+    {
+      "nama_depan": "Nabil",
+      "nama_belakang": "Aziz Bima Anggita",
+      "email": "l200190083@student.ums.ac.id",
+      "no_telp": "+6283146542084",
+      "password": "123",
+      "role": "siswa",
+      "id": 1656299028060,
+      "created_at": "Senin, 27 Juni 2022 10:3:48",
+      "tgl_lahir": "Sukoharjo",
+      "pendidikan": "Apa",
+      "kota": "Sukoharjo"
     }
   ],
   "mentor": [
     {
-      "avatar": "https://picsum.photos/id/1005/200/300",
+      "avatar": "http://res.cloudinary.com/pusatngoding/image/upload/v1656318847/pv5crvodvbuermnbctdd.png",
       "nama_depan": "Lil",
       "nama_belakang": "Peep",
       "keahlian": "React",
@@ -209,7 +222,7 @@
       "id": 1,
       "siswaId": 12345656,
       "kursusId": 1,
-      "status": "Lunas",
+      "status": "Dibatalkan Siswa",
       "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
     },
@@ -238,11 +251,25 @@
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
-      "status": "Batal",
+      "status": "Dibatalkan Siswa",
       "kursusId": 1,
       "siswaId": 12345656,
       "id": 1656290785688,
       "created_at": "Senin, 27 Juni 2022 7:46:25"
+    },
+    {
+      "status": "Batal",
+      "kursusId": 1,
+      "siswaId": 1656299028060,
+      "id": 1656299607086,
+      "created_at": "Senin, 27 Juni 2022 10:13:27"
+    },
+    {
+      "status": "Belum Dibayar",
+      "kursusId": 1,
+      "siswaId": 12345656,
+      "id": 1656317598308,
+      "created_at": "Senin, 27 Juni 2022 15:13:18"
     }
   ],
   "admin": [
@@ -408,6 +435,15 @@
       "siswaId": 5345435,
       "rate": 5,
       "commented": true
+    },
+    {
+      "content": "324",
+      "rate": 5,
+      "siswaId": 12345656,
+      "kursusId": 1,
+      "commented": true,
+      "id": 1656318966036,
+      "created_at": "Senin, 27 Juni 2022 15:36:6"
     }
   ]
 }
