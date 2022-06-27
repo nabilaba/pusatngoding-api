@@ -82,6 +82,33 @@
       "tgl_lahir": "Sukoharjo",
       "pendidikan": "Apa",
       "kota": "Sukoharjo"
+    },
+    {
+      "nama_depan": "Nabil",
+      "nama_belakang": "Aziz Bima Anggita",
+      "no_telp": "+6283146542084",
+      "kota": "ddgfg",
+      "pendidikan": "12424",
+      "tgl_lahir": "12321",
+      "email": "coba@gmail.com",
+      "password": "123",
+      "role": "siswa",
+      "id": 1656323612093,
+      "created_at": "Senin, 27 Juni 2022 16:53:32"
+    },
+    {
+      "email": "aaa@gmail.com",
+      "password": "12345",
+      "nama_depan": "Nabil",
+      "nama_belakang": "Aziz Bima Anggita",
+      "no_telp": "+6283146542084",
+      "kota": "12355",
+      "pendidikan": "123215",
+      "tgl_lahir": "123556",
+      "role": "siswa",
+      "id": 1656324155801,
+      "created_at": "Senin, 27 Juni 2022 17:2:35",
+      "avatar": "http://res.cloudinary.com/pusatngoding/image/upload/v1656324186/uqhshhktzglb3dmj1r0z.png"
     }
   ],
   "mentor": [
@@ -151,15 +178,16 @@
       "id": 42343256
     },
     {
-      "avatar": "https://picsum.photos/id/88/200/300",
       "nama_depan": "Haroinfather",
-      "nama_belakang": "",
-      "keahlian": "Java",
-      "motivasi": "Dengan bahasa pemrograman Java, kalian bisa membuat aplikasi android dengan mudah. Walaupun di awal-awal kalian mengalami kesulitan, tapi kalian akan terbiasa dengan bahasa pemrograman Java.",
-      "status": "Online",
-      "price": "Rp. 300.000 / Jam",
+      "nama_belakang": "Good",
+      "no_telp": "0831345693340",
       "kota": "Ambarawa",
       "pendidikan": "Lulusan ITB",
+      "price": "Rp. 300.000 / Jam",
+      "status": "Online",
+      "avatar": "http://res.cloudinary.com/pusatngoding/image/upload/v1656328533/oe6meqf218xjek3hw7nt.png",
+      "keahlian": "Java",
+      "motivasi": "Dengan bahasa pemrograman Java, kalian bisa membuat aplikasi android dengan mudah. Walaupun di awal-awal kalian mengalami kesulitan, tapi kalian akan terbiasa dengan bahasa pemrograman Java.",
       "email": "demo5@mentor.com",
       "password": "demomentor",
       "created_at": "10 Juni 2022",
@@ -207,31 +235,21 @@
       "deskripsi": "Java adalah bahasa yang digunakan untuk pembuatan aplikasi android",
       "modul": "Android",
       "created_at": "18 Juni 2022, 23:12:00"
-    },
-    {
-      "nama": "Kursus Flutter",
-      "deskripsi": "Flutter adalah bahasa pemrograman android",
-      "modul": "Fullstack Website Developer",
-      "mentorId": 534767,
-      "id": 1656215087719,
-      "created_at": "Minggu, 26 Juni 2022 10:44:47"
     }
   ],
   "transaksi": [
     {
       "id": 1,
-      "siswaId": 12345656,
+      "siswaId": 23954365,
       "kursusId": 1,
-      "status": "Dibatalkan Siswa",
-      "end_at": "19 Juni 2022, 23:12:00",
+      "status": "Transaksi Sukses",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
       "id": 2,
       "siswaId": 23954365,
       "kursusId": 2,
-      "status": "Lunas",
-      "end_at": "19 Juni 2022, 23:12:00",
+      "status": "Dibatalkan Mentor",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
@@ -239,7 +257,6 @@
       "siswaId": 3453497,
       "kursusId": 3,
       "status": "Lunas",
-      "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
@@ -247,7 +264,6 @@
       "siswaId": 3453497,
       "kursusId": 4,
       "status": "Lunas",
-      "end_at": "19 Juni 2022, 23:12:00",
       "created_at": "18 Juni 2022, 23:12:00"
     },
     {
