@@ -454,15 +454,6 @@
       "siswaId": 5345435,
       "rate": 5,
       "commented": true
-    },
-    {
-      "content": "324",
-      "rate": 5,
-      "siswaId": 12345656,
-      "kursusId": 1,
-      "commented": true,
-      "id": 1656318966036,
-      "created_at": "Senin, 27 Juni 2022 15:36:6"
     }
   ]
 }
